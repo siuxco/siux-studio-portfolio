@@ -1,0 +1,5 @@
+body {
+  background-color: var(--color-neutral-1);
+  color: var(--color-neutral-8);
+  font-weight: 500;
+}
