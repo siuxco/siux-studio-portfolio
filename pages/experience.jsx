@@ -39,7 +39,7 @@ const Experience = () => {
                 className="width-xxl height-xxl border-radius-xs"
               />
 
-              <div className="margin-left-l">
+              <div className="padding-bottom-xxl margin-left-l border-width-1 border-neutral-1 border-style-solid border-top-none border-left-none border-right-none">
                 <div className="font-weight-600 font-size-m color-black margin-bottom-xs">
                   {experience.title}
                 </div>
