@@ -11,19 +11,3 @@ body {
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
 }
-
-.transform-scale-1 {
-  transform: scale(1);
-}
-
-.hover\:transform-scale-1-1:hover {
-  transform: scale(1.1);
-}
-
-.filter-grayscale {
-  filter: grayscale(100);
-}
-
-.filter-grayscale:hover {
-  filter: grayscale(0);
-}

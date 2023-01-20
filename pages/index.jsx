@@ -7,7 +7,7 @@ export default function Home() {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.3,
+        staggerChildren: 0.2,
       },
     },
   };
@@ -27,23 +27,24 @@ export default function Home() {
       {Content.projects.map((project, i) => {
         return (
           <motion.div
+            key={i}
             animation="visible"
             variants={item}
             transition={{
-              type: "tween",
+              duration: 100,
               stiffness: 300,
               damping: 20,
+              default: { ease: "easeInOut" },
             }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.96 }}
-            key={project.id}
             className="position-relative overflow-hidden cursor-pointer flex-grow-1 width-full transition-fast margin-l border-radius-xl"
             style={{
               flexBasis: "350px",
             }}
           >
             <div
-              className="display-flex background-neutral-1 background-size-cover background-position-center-center transition-fast filter-grayscale transform-scale-1 hover:transform-scale-1-1"
+              className="display-flex background-neutral-1 background-size-cover background-position-center-center"
               style={{
                 height: "350px",
                 flexBasis: "350px",

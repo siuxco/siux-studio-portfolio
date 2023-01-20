@@ -40,7 +40,7 @@ const Header = () => {
       <h1 className="container-mobile font-size-m tablet:font-size-l color-neutral-5 line-height-m margin-top-l padding-left-l padding-right-l">
         I'm{" "}
         <a href="https://www.linkedin.com/in/sanchezmarcosme/" target="_blank">
-          <span className="transition-fast hover:color-primary-7 color-black font-weight-600">
+          <span className="transition-fast hover:color-primary-7 color-primary-7 font-weight-600">
             Marcos Sanchez
           </span>
         </a>
@@ -70,7 +70,7 @@ const Header = () => {
       <div className="display-flex justify-content-center">
         <div
           className="width-auto background-neutral-1 margin-top-xxl display-flex padding-xs overflow-hidden position-relative border-radius-xl margin-bottom-xl"
-          style={{ maxWidth: "334px" }}
+          style={{ maxWidth: "268px" }}
         >
           {Content.tabs.map((tab) => {
             return (
