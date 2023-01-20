@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Footer } from "../components/Footer";
+import Header from "../components/Header";
 
 // SIUX Studio @ CSS Extend
 import "../public/siux/assets/css/siux.extend.css";
@@ -9,10 +10,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>SIUX Studio + Next.js Integration</title>
-        <meta name="description" content="SIUX Studio + Next.js Integration" />
+        <title>SIUX Studio — Portfolio</title>
+        <meta name="description" content="SIUX Studio — Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
       <Component {...pageProps} />
       <Footer />
     </>

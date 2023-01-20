@@ -1,5 +1,29 @@
 body {
-  background-color: var(--color-neutral-1);
+  background-color: #ffffff;
   color: var(--color-neutral-8);
   font-weight: 500;
+}
+
+.transition-fast {
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+
+.transform-scale-1 {
+  transform: scale(1);
+}
+
+.hover\:transform-scale-1-1:hover {
+  transform: scale(1.1);
+}
+
+.filter-grayscale {
+  filter: grayscale(100);
+}
+
+.filter-grayscale:hover {
+  filter: grayscale(0);
 }
