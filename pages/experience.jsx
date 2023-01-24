@@ -1,5 +1,6 @@
-import { Content } from "../utils/links";
+import { Content } from "../config/links";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Experience = () => {
   const container = {
@@ -43,11 +44,33 @@ const Experience = () => {
                 <div className="font-weight-600 font-size-m color-black margin-bottom-xs">
                   {experience.title}
                 </div>
-                <div className="color-neutral-3 margin-bottom-xs">
-                  {experience.date}
+                <div className="display-flex align-content-center">
+                  <div className="color-neutral-3 margin-bottom-xs">
+                    <Link href={experience.link} target="_blank">
+                      <span className="color-primary-7">{experience.link.replace("https://", "")}</span>
+                    </Link>
+                  </div>
+                  <div className="color-neutral-3 margin-right-xxs margin-left-xxs">
+                    ·
+                  </div>
+                  <div className="color-neutral-3 margin-bottom-xs">
+                    {experience.date}
+                  </div>
                 </div>
-                <div className="line-height-m font-size-s color-neutral-5">
+                <div className="line-height-m font-size-s color-neutral-5 margin-top-m">
                   {experience.description}
+                </div>
+                <div className="display-flex flex-wrap margin-top-s">
+                  {experience.skills.map((skill, e) => {
+                    return (
+                      <div
+                        key={e}
+                        className="margin-right-xs color-neutral-6 margin-top-xs border-style-solid border-neutral-2 border-width-1 padding-s padding-top-xxs padding-bottom-xxs border-radius-xxl"
+                      >
+                        {skill}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </motion.div>

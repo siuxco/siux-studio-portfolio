@@ -1,4 +1,4 @@
-import { Content } from "../utils/links";
+import { Content } from "../config/links";
 import { motion } from "framer-motion";
 
 export default function Home() {

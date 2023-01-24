@@ -14,27 +14,21 @@ export const Content = {
   projects: [
     {
       title: "Gold icons",
-      url: "https://siux.studio/",
     },
     {
       title: "Gold icons",
-      url: "https://siux.studio",
     },
     {
       title: "Gold icons",
-      url: "https://siux.studio",
     },
     {
       title: "Polychips",
-      url: "https://siux.studio",
     },
     {
       title: "Polychips",
-      url: "https://siux.studio",
     },
     {
       title: "Polychips",
-      url: "https://siux.studio",
     },
   ],
   // About
@@ -42,15 +36,19 @@ export const Content = {
     {
       title: "Founder & Managing Director",
       date: "Jan 2013 - Present · 10 yrs 1 mo",
+      skills: ["Founder", "Strategic Planning", "Business Strategy"],
+      link: "https://siux.studio",
       picture:
         "https://media.licdn.com/dms/image/C4D0BAQFJDyXUCOSZpw/company-logo_100_100/0/1672746070637?e=1682553600&v=beta&t=UFY2VRADczpPJLtJc6YGRazjtzHO2b4PXuNHhFoZNgU",
       at: "SIUX",
       description:
-        "We create tools for creative teams to deliver extraordinary user-centric brands, products and experiences.",
+        "We create tools for creative teams to deliver extraordinary user-centric brands, products and experiences. Our framework enables multidisciplinary teams to maintain agility and excellence in building digital products.",
     },
     {
       title: "Senior UX Engineering Manager",
       date: "Jan 2014 - Jun 2022 · 8 yrs 6 mos",
+      skills: ["Management", "Strategic Planning", "Product Development"],
+      link: "https://despegar.com",
       picture:
         "https://media.licdn.com/dms/image/C4D0BAQEYuLi6DP5oGw/company-logo_100_100/0/1553884879968?e=1682553600&v=beta&t=j1DiLhxDTzVJndHO9Jb2GK_wBXudaEff8_LRoKzm-UY",
       at: "Despegar",
@@ -60,6 +58,8 @@ export const Content = {
     {
       title: "Full stack developer",
       date: "Oct 2012 - Dec 2013 · 1 yr 3 mos",
+      skills: ["UX Engineer", "Development", "Planification"],
+      link: "https://minami.digital",
       picture:
         "https://media.licdn.com/dms/image/C560BAQH3AeYgosB41Q/company-logo_100_100/0/1602179799952?e=1682553600&v=beta&t=kM1ix3Qj79y_HTKXsPopZkyiD-yFQi4oW-fHPCAXRps",
       at: "Minami Studios",

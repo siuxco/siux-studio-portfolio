@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { useEffect, useState } from "react";
 
-export default function Document() {
+function Document() {
   return (
     <Html>
       <Head>
@@ -22,11 +23,6 @@ export default function Document() {
           type="text/css"
           rel="stylesheet"
         />
-        <link
-          href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900|Overpass+Mono:400"
-          type="text/css"
-          rel="stylesheet"
-        />
       </Head>
       <body>
         <Main />
@@ -35,3 +31,5 @@ export default function Document() {
     </Html>
   );
 }
+
+export default Document;

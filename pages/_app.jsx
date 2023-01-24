@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import "../public/siux/assets/css/siux.extend.css";
 import "../public/siux/assets/css/siux.icon.remixicon.css";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, data }) {
   return (
     <>
       <Head>

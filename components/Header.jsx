@@ -1,14 +1,43 @@
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { Content } from "../utils/links";
+import { useEffect, useState } from "react";
+import { Content } from "../config/links";
 
 const Header = () => {
   const router = useRouter();
+  const [definitions, setDefinitions] = useState({});
+  const getSiuxStudioDefinitions = async () => {
+    const res = await fetch("/api/siux-studio");
+    const defs = await res.json();
+    setDefinitions(defs);
+  };
+
+  useEffect(() => {
+    getSiuxStudioDefinitions();
+  }, []);
+
   return (
     <div className="animation-fade-in animation-faster">
-      {/* Header */}
+      <Head>
+        {/* Load Google fonts dinamically */}
+        <link
+          href={`https://fonts.googleapis.com/css?family=${definitions.font?.variations
+            ?.map(
+              (current) =>
+                `${current.value.replace(/ /g, "+")}:${current.variants
+                  .filter((va) => va.length === 3)
+                  .join(",")}`
+            )
+            .join("|")}`}
+          type="text/css"
+          rel="stylesheet"
+        />
+      </Head>
+      ;{/* Header */}
       <header className="container-mobile display-flex justify-content-space-between align-items-center padding-m tablet:padding-xl margin-top-s tablet:margin-top-xl">
+        {/* <div>{definitions.font?.length}</div> */}
         <Link href="/">
           <Image
             src="/images/logo.png"
@@ -35,7 +64,6 @@ const Header = () => {
           })}
         </div>
       </header>
-
       {/* Introduction */}
       <h1 className="container-mobile font-size-m tablet:font-size-l color-neutral-5 line-height-m margin-top-l padding-left-l padding-right-l">
         I'm{" "}
@@ -65,7 +93,6 @@ const Header = () => {
         </a>
         .
       </h1>
-
       {/* Navigation */}
       <div className="display-flex justify-content-center">
         <div
