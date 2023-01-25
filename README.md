@@ -5,7 +5,7 @@ This template is built with a modern and responsive design, allowing developers 
 <p align="center">
   <a href="https://siux-studio-portfolio.vercel.app/">
     <picture>
-      <img src="https://i.imgur.com/IzXhTjW.png" width="320" style="border-radius:18px">
+      <img src="https://i.imgur.com/IzXhTjW.png" width="100%" style="border-radius:18px">
     </picture>
   </a>
 </p>
