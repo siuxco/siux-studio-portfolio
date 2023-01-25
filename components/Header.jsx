@@ -35,7 +35,7 @@ const Header = () => {
           rel="stylesheet"
         />
       </Head>
-      ;{/* Header */}
+      {/* Header */}
       <header className="container-mobile display-flex justify-content-space-between align-items-center padding-m tablet:padding-xl margin-top-s tablet:margin-top-xl">
         {/* <div>{definitions.font?.length}</div> */}
         <Link href="/">
