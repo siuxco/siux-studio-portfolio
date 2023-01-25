@@ -1,18 +1,18 @@
+# SIUX Studio portfolio
+
+This template is built with a modern and responsive design, allowing developers and designers to create a professional website to showcase their work quickly.
+
 <p align="center">
-  <a href="https://siux.studio">
+  <a href="https://siux-studio-portfolio.vercel.app/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/edZxJHi.png">
-      <img src="https://i.imgur.com/4jqshKx.png#gh-light-mode-only" width="320">
+      <img src="https://i.imgur.com/IzXhTjW.png" width="320" style="border-radius:18px">
     </picture>
   </a>
 </p>
 
-# SIUX Studio + Next.js integration
-This is a boilerplate integration of [SIUX Studio](https://siux.studio) and [Next.js](https://nextjs.org/)
+[Live preview on Vercel](https://siux-studio-portfolio.vercel.app/)
 
-[Live preview on Vercel](https://siux-studio-next.vercel.app/)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsiuxco%2Fsiux-studio-next)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/siuxco/siux-studio-portfolio)
 
 ## Getting started
 
@@ -37,6 +37,16 @@ Integrate your brand styles by replacing the following lines of code on `pages/_
 <link href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/latest/siux.main.responsive.css" type="text/css" rel="stylesheet">
 ```
 
+## Including Google fonts
+
+A. Create an `.env` file in the root directory and define the environment `SIUX_STUDIO_BRAND_ID` and `SIUX_STUDIO_API_KEY` variables with your brand data to display the Google fonts properly.
+
+B. Alternatively you can manually include the fonts you want to use by adding this node in the `_document.jsx`:
+
+```html
+<link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900|Overpass+Mono:400" type="text/css" rel="stylesheet"/>
+```
+
 ## Development
 
 Edit the page by modifying `pages/index.js`. The page auto-updates as you edit the file. The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/) from the creators of [Next.js](https://nextjs.org/).
@@ -52,4 +62,4 @@ http://localhost:3000/api/hello
 ## Deploy to Vercel
 
 ##### Preview application in browser
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsiuxco%2Fsiux-studio-next)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/siuxco/siux-studio-portfolio)
