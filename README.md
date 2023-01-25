@@ -4,9 +4,7 @@ This template is built with a modern and responsive design, allowing developers 
 
 <p align="center">
   <a href="https://siux-studio-portfolio.vercel.app/">
-    <picture>
-      <img src="https://i.imgur.com/IzXhTjW.png" width="100%" style="border-radius:18px">
-    </picture>
+    <img src="https://i.imgur.com/IzXhTjW.png">
   </a>
 </p>
 
@@ -17,6 +15,7 @@ This template is built with a modern and responsive design, allowing developers 
 ## Getting started
 
 ##### Run the development server
+
 ```bash
 npm run dev
 ```
@@ -27,14 +26,21 @@ npm run dev
 http://localhost:3000
 ```
 
-
 ## Installation
 
 Integrate your brand styles by replacing the following lines of code on `pages/_document.js` with your brand settings.
 
 ```html
-<link href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/latest/siux.main.css" type="text/css" rel="stylesheet">
-<link href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/latest/siux.main.responsive.css" type="text/css" rel="stylesheet">
+<link
+  href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/latest/siux.main.css"
+  type="text/css"
+  rel="stylesheet"
+/>
+<link
+  href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/latest/siux.main.responsive.css"
+  type="text/css"
+  rel="stylesheet"
+/>
 ```
 
 ## Including Google fonts
@@ -44,7 +50,11 @@ A. Create an `.env` file in the root directory and define the environment `SIUX_
 B. Alternatively you can manually include the fonts you want to use by adding this node in the `_document.jsx`:
 
 ```html
-<link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900|Overpass+Mono:400" type="text/css" rel="stylesheet"/>
+<link
+  href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900|Overpass+Mono:400"
+  type="text/css"
+  rel="stylesheet"
+/>
 ```
 
 ## Development
@@ -62,4 +72,5 @@ http://localhost:3000/api/hello
 ## Deploy to Vercel
 
 ##### Preview application in browser
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/siuxco/siux-studio-portfolio)
