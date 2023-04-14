@@ -47,7 +47,7 @@ Integrate your brand styles by replacing the following lines of code on `pages/_
 
 A. Create an `.env` file in the root directory and define the environment `SIUX_STUDIO_BRAND_ID` and `SIUX_STUDIO_API_KEY` variables with your brand data to display the Google fonts properly.
 
-B. Alternatively you can manually include the fonts you want to use by adding this node in the `_document.jsx`:
+B. Alternatively you can manually include the fonts you want to use by adding this node in the `pages/_document.js`:
 
 ```html
 <link

@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { useEffect, useState } from "react";
 
 function Document() {
   return (
@@ -13,16 +12,8 @@ function Document() {
         />
 
         {/* Replace with your brand configuration */}
-        <link
-          href="https://cdn.siux.studio/static/brand/635c578d5fb65c4d24c98836/latest/siux.main.css"
-          type="text/css"
-          rel="stylesheet"
-        />
-        <link
-          href="https://cdn.siux.studio/static/brand/635c578d5fb65c4d24c98836/latest/siux.main.responsive.css"
-          type="text/css"
-          rel="stylesheet"
-        />
+        <link href="https://cdn.siux.studio/static/brand/64394f6e1a3d72c0b2b6a4c5/latest/siux.main.css" type="text/css" rel="stylesheet" />
+        <link href="https://cdn.siux.studio/static/brand/64394f6e1a3d72c0b2b6a4c5/latest/siux.main.responsive.css" type="text/css" rel="stylesheet" />
       </Head>
       <body>
         <Main />
