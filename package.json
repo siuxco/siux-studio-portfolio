@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@siuxco/design-system": "^0.0.6-test-tooltip-display-name.0",
     "flickity": "^3.0.0",
     "framer-motion": "^8.5.0",
     "next": "^13.1.1",
