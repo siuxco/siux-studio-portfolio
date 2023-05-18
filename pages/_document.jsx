@@ -12,8 +12,8 @@ function Document() {
         />
 
         {/* Replace with your brand configuration */}
-        <link href="https://cdn.siux.studio/static/brand/64394f6e1a3d72c0b2b6a4c5/latest/siux.main.css" type="text/css" rel="stylesheet" />
-        <link href="https://cdn.siux.studio/static/brand/64394f6e1a3d72c0b2b6a4c5/latest/siux.main.responsive.css" type="text/css" rel="stylesheet" />
+        <link href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/4.0.1/siux.main.css" type="text/css" rel="stylesheet"/>
+        <link href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/4.0.1/siux.main.responsive.css" type="text/css" rel="stylesheet"/>
       </Head>
       <body>
         <Main />
