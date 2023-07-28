@@ -39,7 +39,7 @@ export const Content = {
       skills: ["Founder", "Strategic Planning", "Business Strategy"],
       link: "https://siux.studio",
       picture:
-        "https://media.licdn.com/dms/image/C4D0BAQFJDyXUCOSZpw/company-logo_100_100/0/1672746070637?e=1682553600&v=beta&t=UFY2VRADczpPJLtJc6YGRazjtzHO2b4PXuNHhFoZNgU",
+        "https://sanchezmarcos.me/images/icons/siux.png",
       at: "SIUX",
       description:
         "We create tools for creative teams to deliver extraordinary user-centric brands, products and experiences. Our framework enables multidisciplinary teams to maintain agility and excellence in building digital products.",
@@ -50,7 +50,7 @@ export const Content = {
       skills: ["Management", "Strategic Planning", "Product Development"],
       link: "https://despegar.com",
       picture:
-        "https://media.licdn.com/dms/image/C4D0BAQEYuLi6DP5oGw/company-logo_100_100/0/1553884879968?e=1682553600&v=beta&t=j1DiLhxDTzVJndHO9Jb2GK_wBXudaEff8_LRoKzm-UY",
+        "https://sanchezmarcos.me/images/icons/despegar.png",
       at: "Despegar",
       description:
         "EVA Design System managed to position itself within the company as a collaborative platform that provides clear principles when building digital products, providing support and facilitating with simplicity the integration of new M&As (Falabella, Best Day and Koin). Consistency, visibility of the work we do, agility and efficiency are our main objective when working collaboratively.",
@@ -61,7 +61,7 @@ export const Content = {
       skills: ["UX Engineer", "Development", "Planification"],
       link: "https://minami.digital",
       picture:
-        "https://media.licdn.com/dms/image/C560BAQH3AeYgosB41Q/company-logo_100_100/0/1602179799952?e=1682553600&v=beta&t=kM1ix3Qj79y_HTKXsPopZkyiD-yFQi4oW-fHPCAXRps",
+        "https://sanchezmarcos.me/images/icons/minami.png",
       at: "Minami Studios",
       description:
         "Responsible for the planning of digital solutions, from the gestation of the application's entity relationship diagram, choice of appropriate technologies, creation of WebServices, documentation of the process and the services provided by the application.",

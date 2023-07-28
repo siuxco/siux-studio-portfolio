@@ -31,14 +31,14 @@ export default function Home() {
             animation="visible"
             variants={item}
             transition={{
-              duration: 100,
-              stiffness: 300,
+              duration: 1,
+              stiffness: 200,
               damping: 20,
               default: { ease: "easeInOut" },
             }}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.96 }}
-            className="position-relative overflow-hidden cursor-pointer flex-grow-1 width-full transition-fast margin-l border-radius-xl"
+            className="position-relative overflow-hidden cursor-pointer flex-grow-1 width-full margin-l border-radius-xl"
             style={{
               flexBasis: "350px",
             }}

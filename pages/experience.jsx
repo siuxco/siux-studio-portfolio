@@ -8,7 +8,7 @@ const Experience = () => {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2,
+        staggerChildren: 0.1,
       },
     },
   };
@@ -28,10 +28,10 @@ const Experience = () => {
               animation="visible"
               variants={item}
               transition={{
-                duration: 100,
-                stiffness: 300,
-                damping: 20,
-                default: { ease: "easeInOut" },
+                duration: 1,
+                stiffness: 200,
+                damping: 10,
+                default: { ease: "easeIn" },
               }}
               className="margin-bottom-xxl display-flex"
             >
